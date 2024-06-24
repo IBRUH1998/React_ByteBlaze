@@ -2,11 +2,9 @@ import { Link } from 'react-router-dom'
 
 const EmptyBookmarks = () => {
   return (
-    <div className='min-h-[cal(100vh-116)] flex flex-col items-center  justify-center py-28'>
-      <h2 className=" text-4xl">
-        No BookMakrs available
-      </h2>
-      <div className="flex items-center justify-center mt-2  py-8">
+    <div className="min-h-[cal(100vh-116)] flex flex-col items-center  justify-center py-28">
+      <h2 className=" text-4xl">No BookMakrs available</h2>
+      <div className="flex items-center justify-center mt-3  py-8">
         <Link
           to="/blogs"
           className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-sky-500 rounded-xl group"
